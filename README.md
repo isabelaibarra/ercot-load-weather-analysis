@@ -1,15 +1,35 @@
 # ERCOT Load Forecasting Using Weather Data
 
-This project analyzes the relationship between weather and electricity demand in the ERCOT power grid.
+This project analyzes how temperature influences electricity demand in the ERCOT power grid using Python.
 
-## Dataset
-- ERCOT hourly load data (2022–2024)
-- NOAA hourly weather observations (Houston)
+## Project Overview
+
+Hourly ERCOT electricity load data (2022–2024) was combined with NOAA weather observations from Houston to analyze how weather variability affects electricity demand.
+
+The goal of this project was to explore temperature-driven electricity demand patterns and build a simple regression-based demand sensitivity model.
 
 ## Methods
-- Data cleaning and merging using Python and pandas
-- Feature engineering (temperature, hour, day-of-week)
-- Regression modeling to analyze weather-driven demand variability
 
-## Tools
-Python, pandas, matplotlib, scikit-learn
+- Cleaned and merged ERCOT load data with NOAA hourly weather observations
+- Converted NOAA temperature observations into usable numerical variables
+- Aggregated weather observations to hourly resolution
+- Built a regression model to estimate the relationship between temperature and electricity demand
+- Visualized load patterns across time and temperature
+
+## Tools Used
+
+- Python
+- pandas
+- matplotlib
+- scikit-learn
+- Google Colab
+
+## Example Visualizations
+
+### Load vs Temperature
+
+![Load vs Temperature](images/load_vs_temperature.png)
+
+### Load Over Time
+
+![Load Over Time](images/load_vs_time.png)
