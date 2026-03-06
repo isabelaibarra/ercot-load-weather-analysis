@@ -24,6 +24,13 @@ The goal of this project was to explore temperature-driven electricity demand pa
 - scikit-learn
 - Google Colab
 
+## Key Findings
+
+- Electricity demand in ERCOT shows a clear relationship with temperature.
+- Higher temperatures correspond with increased electricity load, likely driven by air conditioning demand.
+- The regression model indicates a moderate positive relationship between temperature and system load.
+- Temperature alone explains a meaningful portion of electricity demand variability, though additional variables (such as humidity, day-of-week, and economic activity) would likely improve forecasting performance.
+
 ## Example Visualizations
 
 ### Load vs Temperature
