@@ -30,6 +30,7 @@ The goal of this project was to explore temperature-driven electricity demand pa
 - Higher temperatures correspond with increased electricity load, likely driven by air conditioning demand.
 - The regression model indicates a moderate positive relationship between temperature and system load.
 - Temperature alone explains a meaningful portion of electricity demand variability, though additional variables (such as humidity, day-of-week, and economic activity) would likely improve forecasting performance.
+- Electricity demand directly affects pricing and market conditions, so understanding how external factors like weather drive demand is critical for forecasting, risk management, and trading decisions.
 
 ## Example Visualizations
 
