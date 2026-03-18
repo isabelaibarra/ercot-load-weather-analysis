@@ -32,6 +32,8 @@ The goal of this project was to explore temperature-driven electricity demand pa
 - Temperature alone explains a meaningful portion of electricity demand variability, though additional variables (such as humidity, day-of-week, and economic activity) would likely improve forecasting performance.
 - Electricity demand directly affects pricing and market conditions, so understanding how external factors like weather drive demand is critical for forecasting, risk management, and trading decisions.
 
+- analytical thinking, attention to detail, communication, ability to learn quickly
+
 ## Example Visualizations
 
 ### Load vs Temperature
